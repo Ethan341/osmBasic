@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="xmodule">
+    <head>
+        <title>
+
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin="" />
+        <script src="angular.js"></script>
+        
+       
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+    integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+    crossorigin=""></script>
+    <script src="heatmap-min.js"></script>
+    <script src="leaflet-heatmap.js"></script>
+    <script src="marker-bounce.js"></script>
+      
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js"></script>
+       <!-- <script src="osmFiles/leaflet.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-simple-logger/0.1.7/angular-simple-logger.min.js"></script>
+        
+       <link rel="stylesheet" href="osmFiles/leaflet.css">
+       <script src="ui-leaflet_dev_mapped.js"></script> -->
+        <script src="script.js"></script>
+    </head>
+    <body ng-controller="xcontroller">
+        <H4>Map will be shown here</H4>
+      <div class="map" id="mapData"> map</div>
+    </body>
+</html>
